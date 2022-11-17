@@ -27,7 +27,7 @@ form.addEventListener('submit',(event)=>{
         array.forEach(element=>{
             if(element!=Number(element)){
                 array=array.sort();
-                // td.innerText=element;
+                td.innerText=element;
             }else if(element==Number(element)){
                 array.sort((a,b)=>{
                     let result=a-b;
